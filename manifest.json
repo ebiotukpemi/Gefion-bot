@@ -1,0 +1,13 @@
+{
+  "name": "Gefion Sniper",
+  "short_name": "Sniper",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0f0f0f",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
