@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Gefion Sniper</title>
+</head>
+<body>
+  <header>
+    <h1>Gefion Sniper</h1>
+    <div id="chain-selector">
+      <select>
+        <option>Solana</option>
+        <option>BSC</option>
+        <option>Base</option>
+      </select>
+    </div>
+  </header>
+  <aside>
+    <h2>Filters</h2>
+    <!-- Filters can go here -->
+  </aside>
+  <main>
+    <table>
+      <thead>
+        <tr><th>Token</th><th>Price</th><th>Supply</th><th>Market Cap</th></tr>
+      </thead>
+      <tbody id="token-table">
+        <!-- Token rows injected here -->
+      </tbody>
+    </table>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
