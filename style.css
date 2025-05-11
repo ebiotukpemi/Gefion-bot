@@ -1,0 +1,27 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1f1f1f;
+  padding: 10px;
+  text-align: center;
+}
+aside {
+  background: #1a1a1a;
+  padding: 10px;
+}
+main {
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #333;
+}
